@@ -6,7 +6,7 @@ function withHttps(value?: string) {
   if (!value) return null;
   return value.startsWith("http") ? value : `https://${value}`;
 }
-
+//hii
 export function getShortLinkBaseUrl() {
   return (
     stripTrailingSlash(process.env.NEXT_PUBLIC_SHORT_LINK_BASE_URL) ??
